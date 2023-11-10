@@ -106,42 +106,35 @@
   </td>
 </tr>          
 
-    <tr onmouseout="camp_stop()" onmouseover="camp_start()">
+    <tr>
       <td style="padding:20px;width:25%;vertical-align:middle">
         <div class="one">
-          <div class="two" id='camp_image'><video  width=100% height=100% muted autoplay loop>
-          <source src="images/camp.mp4" type="video/mp4">
-          Your browser does not support the video tag.
-          </video></div>
-          <img src='images/camp.png' width="160">
+          <div class="two" id='ppi_image'>
+          <img src='images/ppi.png' width="160">
         </div>
-        <script type="text/javascript">
-          function camp_start() {
-            document.getElementById('camp_image').style.opacity = "1";
-          }
-
-          function camp_stop() {
-            document.getElementById('camp_image').style.opacity = "0";
-          }
-          camp_stop()
-        </script>
       </td>
       <td style="padding:20px;width:75%;vertical-align:middle">
-        <a href="https://camp-nerf.github.io/">
-          <span class="papertitle">CamP: Camera Preconditioning for Neural Radiance Fields</span>
+        <a href="https://arxiv.org/abs/2310.18515">
+          <span class="papertitle">Learning to design protein-protein interactions with enhanced generalization</span>
         </a>
         <br>
-        <a href="https://keunhong.com/">Keunhong Park</a>,
-        <a href="https://henzler.github.io/">Philipp Henzler</a>,
-        <a href="https://bmild.github.io/">Ben Mildenhall</a>,
-        <strong>Jonathan T. Barron</strong>,
-        <a href="http://www.ricardomartinbrualla.com/">Ricardo Martin-Brualla</a>
+        Anton Bushuiev,
+        Roman Bushuiev,
+        Anatolii Filkin,
+        <strong>Petr Kouba</strong>,
+        Marketa Gabrielova,
+        Michal Gabriel,
+        Jiri Sedlar,
+        Tomas Pluskal,
+        Jiri Damborsky,
+        Stanislav Mazurenko,
+        Josef Sivic
         <br>
-        <em>SIGGRAPH Asia</em>, 2023
+        <em>In Submission</em>, 2023
         <br>
         <a href="https://camp-nerf.github.io/">project page</a>
         /
-        <a href="https://arxiv.org/abs/2308.10902">arXiv</a>
+        <a href="https://arxiv.org/abs/2310.18515">arXiv</a>
         <p></p>
         <p>
         Preconditioning based on camera parameterization helps NeRF and camera extrinsics/intrinsics optimize better together.
