@@ -129,7 +129,9 @@ h2 {
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
 }
-
+.tab{
+  Padding-left:20px;
+}
 span.highlight {
   background-color: #ffffd0;
 }
